@@ -1,0 +1,9 @@
+::selection {
+  @apply text-white bg-black;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-tap-highlight-color: transparent;
+}

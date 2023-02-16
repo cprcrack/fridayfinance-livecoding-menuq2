@@ -1,0 +1,12 @@
+html,
+body {
+  @apply overflow-hidden w-full h-screen;
+}
+
+body {
+  @apply font-sans text-base text-black/95 bg-zinc-200;
+}
+
+#__nuxt {
+  @apply overflow-auto w-full h-full;
+}

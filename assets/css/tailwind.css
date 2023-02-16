@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-spacing-0 {
+    border-spacing: 0;
+  }
+
+  .scrollbar-gutter {
+    scrollbar-gutter: stable;
+  }
+}
